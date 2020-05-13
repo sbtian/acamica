@@ -37,7 +37,7 @@
             background-color: white;
             border: white solid 1px;
             width: 450px;
-            height: 550px;
+            height: 650px;
             border-radius: 5px;
             padding: 10px;
         }
@@ -82,11 +82,18 @@
                     <option value="3">Desarrollo Web Full Stack</option>
                     <option value="4">FrontEnd Avanzado</option>
                 </select>
-                <label >Modalidad</label>
+                <label>Modalidad</label>
                 <label for="modalidad_1">Presencial</label>
                 <input type="radio" id="modalidad_1" name="modalidad" value="Presencial">
                 <label for="modalidad_2">Online</label>
-                <input type="radio" id="modalidad_2" name="modalidad" value="Online">
+                <input type="radio" id="modalidad_2" name="modalidad" value="Online">                
+                <hr>
+                <label>¿Estás trabajando actualmente?</label> 
+                <label for="telefono">Teléfono de contacto</label>
+                <input type="text" id="telefono" name="telefono">
+                <label for="descripcion">Descripción personal - No más de 300 caracteres</label> 
+                <textarea name="descripcion" id="descripcion" rows="5" maxlength="300"></textarea>
+                <hr>
                 <button type="submit">Registrar</button>
                 <button type="reset">Borrar</button>
             </form>
